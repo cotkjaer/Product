@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FA50CC61CAA7059005D28B6 /* ProductPurchaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA50CC51CAA7059005D28B6 /* ProductPurchaser.swift */; };
+		8FA50CCA1CAA72D1005D28B6 /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA50CC91CAA72D1005D28B6 /* SKPaymentTransactionState.swift */; };
+		8FA50CCC1CAA7F10005D28B6 /* PurchaseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA50CCB1CAA7F10005D28B6 /* PurchaseStatus.swift */; };
+		8FA50CCE1CAA8043005D28B6 /* ProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA50CCD1CAA8043005D28B6 /* ProductInfo.swift */; };
+		8FA50CD01CAA81EA005D28B6 /* ProductsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA50CCF1CAA81EA005D28B6 /* ProductsCollectionViewController.swift */; };
+		8FA50CD21CAA8425005D28B6 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA50CD11CAA8425005D28B6 /* ProductsViewController.swift */; };
 		8FBBEAA81C9C8C3400FB1D6E /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBBEAA71C9C8C3400FB1D6E /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FBBEAAF1C9C8C3500FB1D6E /* Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBBEAA41C9C8C3400FB1D6E /* Product.framework */; };
 		8FBBEAB41C9C8C3500FB1D6E /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBEAB31C9C8C3500FB1D6E /* ProductTests.swift */; };
+		8FBBEABF1C9C8C4500FB1D6E /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBEABE1C9C8C4500FB1D6E /* SKProduct.swift */; };
+		8FBBEAC11C9C8CB800FB1D6E /* ProductsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBEAC01C9C8CB800FB1D6E /* ProductsCache.swift */; };
+		8FBBEAC31C9C8DE900FB1D6E /* ProductsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBEAC21C9C8DE900FB1D6E /* ProductsFetcher.swift */; };
+		8FBBEAC51C9C8E8700FB1D6E /* PaymentQueueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBEAC41C9C8E8700FB1D6E /* PaymentQueueHandler.swift */; };
+		8FBBEAC71C9C901400FB1D6E /* ProductsRestorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBEAC61C9C901400FB1D6E /* ProductsRestorer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FA50CC51CAA7059005D28B6 /* ProductPurchaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPurchaser.swift; sourceTree = "<group>"; };
+		8FA50CC91CAA72D1005D28B6 /* SKPaymentTransactionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPaymentTransactionState.swift; sourceTree = "<group>"; };
+		8FA50CCB1CAA7F10005D28B6 /* PurchaseStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseStatus.swift; sourceTree = "<group>"; };
+		8FA50CCD1CAA8043005D28B6 /* ProductInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfo.swift; sourceTree = "<group>"; };
+		8FA50CCF1CAA81EA005D28B6 /* ProductsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewController.swift; sourceTree = "<group>"; };
+		8FA50CD11CAA8425005D28B6 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		8FBBEAA41C9C8C3400FB1D6E /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBBEAA71C9C8C3400FB1D6E /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		8FBBEAA91C9C8C3400FB1D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FBBEAAE1C9C8C3500FB1D6E /* ProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBBEAB31C9C8C3500FB1D6E /* ProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
 		8FBBEAB51C9C8C3500FB1D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBBEABE1C9C8C4500FB1D6E /* SKProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKProduct.swift; sourceTree = "<group>"; };
+		8FBBEAC01C9C8CB800FB1D6E /* ProductsCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCache.swift; sourceTree = "<group>"; };
+		8FBBEAC21C9C8DE900FB1D6E /* ProductsFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsFetcher.swift; sourceTree = "<group>"; };
+		8FBBEAC41C9C8E8700FB1D6E /* PaymentQueueHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentQueueHandler.swift; sourceTree = "<group>"; };
+		8FBBEAC61C9C901400FB1D6E /* ProductsRestorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsRestorer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +95,17 @@
 			children = (
 				8FBBEAA71C9C8C3400FB1D6E /* Product.h */,
 				8FBBEAA91C9C8C3400FB1D6E /* Info.plist */,
+				8FBBEABE1C9C8C4500FB1D6E /* SKProduct.swift */,
+				8FA50CCB1CAA7F10005D28B6 /* PurchaseStatus.swift */,
+				8FA50CCD1CAA8043005D28B6 /* ProductInfo.swift */,
+				8FBBEAC01C9C8CB800FB1D6E /* ProductsCache.swift */,
+				8FBBEAC21C9C8DE900FB1D6E /* ProductsFetcher.swift */,
+				8FBBEAC61C9C901400FB1D6E /* ProductsRestorer.swift */,
+				8FA50CC51CAA7059005D28B6 /* ProductPurchaser.swift */,
+				8FA50CD11CAA8425005D28B6 /* ProductsViewController.swift */,
+				8FA50CCF1CAA81EA005D28B6 /* ProductsCollectionViewController.swift */,
+				8FBBEAC41C9C8E8700FB1D6E /* PaymentQueueHandler.swift */,
+				8FA50CC91CAA72D1005D28B6 /* SKPaymentTransactionState.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -194,6 +227,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBBEAC31C9C8DE900FB1D6E /* ProductsFetcher.swift in Sources */,
+				8FBBEAC51C9C8E8700FB1D6E /* PaymentQueueHandler.swift in Sources */,
+				8FBBEAC11C9C8CB800FB1D6E /* ProductsCache.swift in Sources */,
+				8FA50CCE1CAA8043005D28B6 /* ProductInfo.swift in Sources */,
+				8FA50CD21CAA8425005D28B6 /* ProductsViewController.swift in Sources */,
+				8FA50CC61CAA7059005D28B6 /* ProductPurchaser.swift in Sources */,
+				8FA50CCA1CAA72D1005D28B6 /* SKPaymentTransactionState.swift in Sources */,
+				8FA50CD01CAA81EA005D28B6 /* ProductsCollectionViewController.swift in Sources */,
+				8FBBEABF1C9C8C4500FB1D6E /* SKProduct.swift in Sources */,
+				8FA50CCC1CAA7F10005D28B6 /* PurchaseStatus.swift in Sources */,
+				8FBBEAC71C9C901400FB1D6E /* ProductsRestorer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +352,7 @@
 		8FBBEAB91C9C8C3500FB1D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +363,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.Product";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8FBBEABA1C9C8C3500FB1D6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -376,6 +423,7 @@
 				8FBBEABA1C9C8C3500FB1D6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FBBEABB1C9C8C3500FB1D6E /* Build configuration list for PBXNativeTarget "ProductTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +432,7 @@
 				8FBBEABD1C9C8C3500FB1D6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
